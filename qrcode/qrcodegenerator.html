@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #d35400;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Restaurant Menu</h1>
+
+    <table>
+        <tr>
+            <th>Veg Items</th>
+            <th>Price (Rs.)</th>
+            <th>Non-Veg Items</th>
+            <th>Price (Rs.)</th>
+            <th>Drinks</th>
+            <th>Price (Rs.)</th>
+        </tr>
+
+        <tr>
+            <td>Momo</td>
+            <td class="price">150</td>
+            <td>Pork</td>
+            <td class="price">350</td>
+            <td>Gorkha</td>
+            <td class="price">500</td>
+        </tr>
+
+        <tr>
+            <td>Chowmein</td>
+            <td class="price">120</td>
+            <td>Mutton</td>
+            <td class="price">500</td>
+            <td>Red Bull</td>
+            <td class="price">150</td>
+        </tr>
+
+        <tr>
+            <td>Thukpa</td>
+            <td class="price">100</td>
+            <td>Chicken</td>
+            <td class="price">250</td>
+            <td>Juice</td>
+            <td class="price">100</td>
+        </tr>
+    </table>
+
+</body>
+</html>
